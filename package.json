@@ -1,10 +1,10 @@
 {
   "name": "sunwin-autotoken",
   "version": "1.0.0",
-  "main": "sunwin_autotokenv2.js",
+  "main": "sunwin_autotokenv3.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node sunwin_autotokenv2.js"
+    "start": "node sunwin_autotokenv3.js"
   },
   "dependencies": {
     "fastify": "^4.27.0",
@@ -13,6 +13,6 @@
     "node-fetch": "^2.6.7"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0"
   }
 }
