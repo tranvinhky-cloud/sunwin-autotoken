@@ -7,7 +7,7 @@ const fetch = require('node-fetch'); // Mày phải cài cái này: npm i node-f
 const fastify = Fastify({ logger: false });
 const PORT = process.env.PORT || 10002;
 const HISTORY_FILE = path.join(__dirname, 'taixiu_history.json');
-const FIREBASE_URL = 'https://txsunwinbot-default-rtdb.firebaseio.com/tokenfr.json';
+const FIREBASE_URL = 'https://sunwin-b2ca8-default-rtdb.firebaseio.com/tokenfr.json';
 
 let rikResults = [];
 let rikCurrentSession = null;
