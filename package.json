@@ -1,0 +1,14 @@
+{
+  "name": "sunwin-autotoken",
+  "version": "1.0.0",
+  "main": "sunwin_autotokenv2.js",
+  "scripts": {
+    "start": "node sunwin_autotokenv2.js"
+  },
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "@fastify/cors": "^8.0.0",
+    "ws": "^8.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
